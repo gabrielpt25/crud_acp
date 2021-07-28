@@ -1,0 +1,9 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/resource/js/components/welcome.js": "/js/resource/js/components/welcome.js",
+    "/js/resource/js/components/produto/list.js": "/js/resource/js/components/produto/list.js",
+    "/js/resource/js/components/produto/add.js": "/js/resource/js/components/produto/add.js",
+    "/js/resource/js/components/produto/edit.js": "/js/resource/js/components/produto/edit.js",
+    "/css/app.css": "/css/app.css",
+    "/js/resource/js/components/produto/AutocompleteComponent.js": "/js/resource/js/components/produto/AutocompleteComponent.js"
+}
