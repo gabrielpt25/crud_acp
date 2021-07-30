@@ -12,7 +12,6 @@ import {routes} from './routes';
 Vue.use(VueRouter);
 Vue.use(VueAxios, axios);
 
-Vue.component('autocomplete-component', require('../views/components/AutocompleteComponent.vue').default);
 
 const router = new VueRouter({
     mode: 'history',
