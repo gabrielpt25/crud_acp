@@ -3,7 +3,6 @@ require('./bootstrap');
 import vue from 'vue'
 window.Vue = vue;
 
-import App from '../views/components/App.vue';
 import VueRouter from 'vue-router';
 import VueAxios from 'vue-axios';
 import axios from 'axios';
