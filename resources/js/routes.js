@@ -2,7 +2,7 @@ const Welcome = () => import('../views/components/Welcome' /* webpackChunkName: 
 const ProdutoList = () => import('../views/components/produto/List.vue' /* webpackChunkName: "resource/js/components/produto/list" */)
 const ProdutoCreate = () => import('../views/components/produto/Add.vue' /* webpackChunkName: "resource/js/components/produto/add" */)
 const ProdutoEdit = () => import('../views/components/produto/Edit.vue' /* webpackChunkName: "resource/js/components/produto/edit" */)
-const ProdutoSearch = () => import('../views/components/produto/AutocompleteComponent.vue' /* webpackChunkName: "resource/js/components/produto/AutocompleteComponent" */)
+
 
 export const routes = [
     {
@@ -24,11 +24,5 @@ export const routes = [
         name: 'produtoAdd',
         path: '/produto/add',
         component: ProdutoCreate
-    },
-
-    {
-        name: 'produtoSearch',
-        path: '/produto/search',
-        component: ProdutoSearch
     }
 ]
